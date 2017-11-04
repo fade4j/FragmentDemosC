@@ -13,10 +13,38 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="源文件\ImoocPart1">
+      <UniqueIdentifier>{f331f3b9-60d3-409f-aeec-eae6c9c58d36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ImoocPart2">
+      <UniqueIdentifier>{a0a59b54-b897-4a66-a636-e8861b71de4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ImoocPart3">
+      <UniqueIdentifier>{a188e9a2-a211-4fc8-81f7-ffbe16a08309}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="cpp\Hello.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="cpp\ImoocPart3\Part4_2.cpp">
+      <Filter>源文件\ImoocPart3</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\ImoocPart3\Student.cpp">
+      <Filter>源文件\ImoocPart3</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="cpp\CodeTemplate.txt">
+      <Filter>源文件</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cpp\ImoocPart3\Student.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
