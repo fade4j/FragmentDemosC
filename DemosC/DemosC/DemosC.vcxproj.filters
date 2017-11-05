@@ -22,16 +22,22 @@
     <Filter Include="源文件\ImoocPart3">
       <UniqueIdentifier>{a188e9a2-a211-4fc8-81f7-ffbe16a08309}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\ImoocPart4">
+      <UniqueIdentifier>{5cc61331-0200-410b-a8cc-833c8fdcbc53}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="cpp\Hello.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="cpp\ImoocPart3\Part4_2.cpp">
-      <Filter>源文件\ImoocPart3</Filter>
+    <ClCompile Include="cpp\ImoocPart4\Coordinate.cpp">
+      <Filter>源文件\ImoocPart4</Filter>
     </ClCompile>
-    <ClCompile Include="cpp\ImoocPart3\Student.cpp">
-      <Filter>源文件\ImoocPart3</Filter>
+    <ClCompile Include="cpp\ImoocPart4\Part2_7.cpp">
+      <Filter>源文件\ImoocPart4</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\ImoocPart4\Lines.cpp">
+      <Filter>源文件\ImoocPart4</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -44,6 +50,12 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="cpp\ImoocPart3\Student.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cpp\ImoocPart3\Teacher.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cpp\ImoocPart3\Coach.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
