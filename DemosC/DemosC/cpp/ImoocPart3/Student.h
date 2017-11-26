@@ -10,6 +10,8 @@ public:
 	string getGender();
 	void study(int _score);
 	void toString();
+	Student* getThisPointer();
+	Student& getThisQuote();
 private:
 	string m_strName;
 	string m_strGender;

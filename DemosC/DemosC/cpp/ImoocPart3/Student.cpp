@@ -22,3 +22,13 @@ void Student::study(int _score) {
 void Student::toString() {
 	cout << m_strName << " , " << m_strGender << " : " << m_iScore << endl;
 }
+
+Student* Student::getThisPointer() {
+	cout << this << endl;
+	return this;
+}
+
+Student& Student::getThisQuote() {
+	//cout << *this << endl;
+	return *this;
+}

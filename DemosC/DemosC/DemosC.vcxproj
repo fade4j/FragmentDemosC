@@ -147,8 +147,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="cpp\Hello.cpp" />
-    <ClCompile Include="cpp\ImoocPart3\Part4_2.cpp" />
-    <ClCompile Include="cpp\ImoocPart3\Student.cpp" />
+    <ClCompile Include="cpp\ImoocPart5\Rect.cpp" />
+    <ClCompile Include="cpp\ImoocPart5\TestPart5_7.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram.cd" />
@@ -157,7 +157,9 @@
     <Text Include="cpp\CodeTemplate.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="cpp\ImoocPart3\Student.h" />
+    <ClInclude Include="cpp\ImoocPart5\Match.h" />
+    <ClInclude Include="cpp\ImoocPart5\Time.h" />
+    <ClInclude Include="Rect.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
